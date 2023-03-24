@@ -1,0 +1,334 @@
+/* header */
+.logo_header {
+    background-color: orange;
+}
+
+.logo {
+    width: 360px;
+    background-color: orange;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+}
+
+.back_button {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+}
+
+.fa-solid.fa-arrow-left {
+   color: black;
+
+}
+/* header */
+
+/* home page main */
+.see_more_button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: orange;
+    width: 60px;
+    border: 1px solid black;
+}
+
+.see_more_text {
+    text-decoration: none;
+    color: black;
+}
+
+.movie_pictures {
+    margin-bottom: 10px;
+    display: flex;
+    overflow: auto;
+}
+
+.images {
+    height: 300px;
+    border-radius: 10px;
+    margin: 5px;
+}
+/* home page main */
+
+/* footer */
+.nav_bar {
+    display: flex;
+}
+
+.nav_button1,
+.nav_button2,
+.nav_button3,
+.nav_button4 {
+    background-color: orange;
+    padding: 36px;
+    margin-right: 2px;
+    
+}
+
+.fa-solid.fa-circle-info {
+    color: black;
+}
+
+.fa-solid.fa-phone {
+    color: black;
+}
+/* footer */
+
+/* about page */
+.about_picture {
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.about_text {
+    margin: 30px;
+}
+/* about page */
+
+/* contact page */
+.submission_form {
+    margin: 20px ;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+input, textarea {
+    display: block;
+    margin: auto;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;    
+}
+
+.message {
+    margin-top: 50px;
+}
+
+#send {
+    background: orange;
+    width: 100px;
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+/* contact page */
+
+/* list of movies */
+.images2 {
+    display: block;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 5px auto;
+    position: relative;
+}
+
+.buy {
+    padding: 8px;
+    background-color: orange;
+    color: black;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.buy1 {
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+}
+
+.buy2 {
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+}
+
+.buy3 {
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+}
+
+.buy4 {
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+}
+
+.buy5 {
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+}
+
+.buy6 {
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+}
+
+.buy7 {
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+}
+
+.buy8 {
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+}
+/* list of movies */
+
+/* checkout */
+.total {
+    background-color: gainsboro;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.buy_movie {
+    padding: 8px;
+    background-color: orange;
+    color: black;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+/* checkout */
+
+/* checkout success */
+.success {
+    background-color: orange;
+    height: 400px;
+    width: 360px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back_to_home {
+    padding: 8px;
+    background-color: orange;
+    color: black;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    margin: 50px auto;
+}
+/* checkout success */
+
+@media screen and (min-width: 1512px) {
+    .header {
+        background-color: orange;
+        padding: 1px;
+    }
+    .body {
+        background-color: black;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .logo {
+        width: 600px;
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
+    .images {
+        height: 500px;
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+    }
+    .nav_button1,
+    .nav_button2 {
+    position: relative;
+    bottom: 920px;
+    left: 20px;
+    border: 1px solid black;
+    }
+    .nav_button3,
+    .nav_button4 {
+    position: relative;
+    bottom: 920px;
+    left: 1110px;
+    border: 1px solid black;
+    }
+    .see_more_button {
+        padding: 20px;
+        margin: 30px;
+        position: relative;
+        left: 55px;
+    }
+    .pic_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 50px 400px;
+    }
+    .back_button {
+        padding: 20px;
+        font-size: x-large;
+        position: relative;
+        bottom: 80px;
+        left: 40px;
+    }
+    .about_picture {
+        width: 30rem;
+    }
+    .about_container {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+       
+    }
+    .about_text {
+        margin: 20px auto;
+        width: 300px;
+    }
+    .submission_form {
+        background-color: white;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        left: 585px;
+    }
+    .images2 {
+        margin-top: 40px;
+    }
+    .success {
+        padding: 50px 580px 50px;
+    }
+}
+
+
+
+

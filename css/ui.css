@@ -1,0 +1,168 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-links ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.navbar-links li a {
+    text-decoration: underline;
+    color: black;
+    padding: 20px;
+    display: block;
+    margin-right: 50px;
+}
+
+.navbar-links li a:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 45px;
+    right: 40px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+        border: 1px solid black;
+        margin: 5px;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+.see_more_button {
+    background-color: orange;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    padding: 20px;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 20px;
+
+    display: block;
+    margin: 50px auto;
+}
+
+.see_more_button:hover {
+    background-color: white;
+}
+ 
+
+.see_more_text {
+    text-decoration: none;
+    color: black;
+}
+
+.buy-container {
+    text-align: center;
+}
+
+.total {
+    color: white;
+    margin: 50px;
+    font-size: 30px;
+}
+
+.buy-button {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    padding: 20px;
+    border-radius: 5px;
+    width: 130px;
+    font-size: 20px;
+
+    display: block;
+    margin: 50px auto;
+}
+
+.buy-button:hover {
+    background-color: white;
+}
+
+.success {
+    color: orange;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-button {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    padding: 20px;
+    border-radius: 5px;
+    width: 160px;
+    font-size: 20px;
+
+    display: block;
+    margin: 50px auto;
+}
+
+.home-button:hover {
+    background-color: white;
+}
+
+
+
+
+

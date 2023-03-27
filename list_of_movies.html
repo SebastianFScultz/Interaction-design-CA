@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The list of movies page to the SquareEyes website." />
     <title>List of movies page</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
@@ -22,48 +22,78 @@
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
+</script>
+<script defer type="module" src="js/script.js"></script>
 </head>
-<body class="body">
-    <header class="header">
-        <h1>List of movies</h1>
-            <a href="index.html" class="back_button"><i class="fa-solid fa-arrow-left"></i></a>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="images/SquareEyes_Logo.png" alt="Logo of SquareEyes" class="logo" />
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="list_of_movies.html">Movies</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="page-title">List of movies</h1>
     </header>
     <main>
-        <section class="pic_container">
+        <section class="movie_pictures">
         <div>
-            <img src="images/Square_Eyes_Cover1.jpeg" class="images2 "/>
-            <a href="checkout1.html" class="buy buy1">Buy</a>
+            <a href="checkout1.html"><img src="images/Square_Eyes_Cover1.jpeg" class="images "/></a>
         </div>
         <div>
-            <img src="images/Square_Eyes_Cover2.jpeg" class="images2"/>
-            <a href="checkout2.html" class="buy buy2">Buy</a>
+            <a href="checkout2.html"><img src="images/Square_Eyes_Cover2.jpeg" class="images"/></a>
         </div>
         <div>
-            <img src="images/Square_Eyes_Cover3.jpeg" class="images2"/>
-            <a href="checkout3.html" class="buy buy3">Buy</a>
+            <a href="checkout3.html"><img src="images/Square_Eyes_Cover3.jpeg" class="images"/></a>
         </div>
         <div>
-            <img src="images/Square_Eyes_Cover4.jpeg" class="images2"/>
-            <a href="checkout4.html" class="buy buy4">Buy</a>
+            <a href="checkout4.html"><img src="images/Square_Eyes_Cover4.jpeg" class="images"/></a>
         </div>
         <div>
-            <img src="images/Square_Eyes_Cover5.jpeg" class="images2"/>
-            <a href="checkout5.html" class="buy buy5">Buy</a>
-
+            <a href="checkout5.html"><img src="images/Square_Eyes_Cover5.jpeg" class="images"/></a>
         </div>
         <div>
-            <img src="images/Square_Eyes_Cover6.jpeg" class="images2"/>
-            <a href="checkout6.html" class="buy buy6">Buy</a>
+            <a href="checkout6.html"><img src="images/Square_Eyes_Cover6.jpeg" class="images"/></a>
         </div>
         <div>
-            <img src="images/Square_Eyes_Cover7.jpeg" class="images2"/>
-            <a href="checkout7.html" class="buy buy7">Buy</a>
+            <a href="checkout7.html"><img src="images/Square_Eyes_Cover7.jpeg" class="images"/></a>
         </div>
         <div>
-            <img src="images/Square_Eyes_Cover8.jpeg" class="images2"/>
-            <a href="checkout8.html" class="buy buy8">Buy</a>
+            <a href="checkout8.html"><img src="images/Square_Eyes_Cover8.jpeg" class="images"/></a>
         </div>
         </section>
     </main>
+
+    <footer>
+        <div class="footer_content">
+            <p>Follow us:</p>
+            <ul class="socials">
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+            </ul>
+        </div>
+        <div class="footer_bottom">
+            <p>copyright &copy 2023 All rights reserved</p>
+        </div> 
+    </footer>
 </body>
 </html>
